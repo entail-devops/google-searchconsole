@@ -104,8 +104,8 @@ def authenticate(client_config=None, credentials=None, service_account=None,
 
 
     service = discovery.build(
-        serviceName='webmasters',
-        version='v3',
+        serviceName='searchconsole',
+        version='v1',
         credentials=credentials,
         cache_discovery=False,
     )
